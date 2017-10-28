@@ -1,0 +1,4 @@
+No,Username,Password,Client,Description,InvalidUsernamePasswordMessage,InvalidClientMessage
+1,invaliduser,Welcome1,test,invalid user,The user name and password you entered don't match.,"Sorry, domain not found."
+2,aj,invalidpassword,test,invalid password,The user name and password you entered don't match.,"Sorry, domain not found."
+3,aj,Welcome1,invalidclient,invalidclient,The user name and password you entered don't match.,"Sorry, domain not found."
