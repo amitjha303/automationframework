@@ -1,11 +1,12 @@
-package com.invoke.pages;
+package com.automation.pages;
 
 import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import com.invoke.base.BasePageObject;
+
+import com.automation.base.BasePageObject;
 
 public class ProjectEditorPage extends BasePageObject<ProjectEditorPage> {
 	protected By pageHeaderText = By.xpath(prop.getProperty("pageHeaderText"));

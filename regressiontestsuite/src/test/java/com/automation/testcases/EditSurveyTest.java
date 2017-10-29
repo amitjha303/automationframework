@@ -1,14 +1,15 @@
-package com.invoke.testcases;
+package com.automation.testcases;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Map;
 import org.testng.annotations.Test;
-import com.invoke.base.BaseTest;
-import com.invoke.base.CsvDataProvider;
-import com.invoke.pages.SurveyEditorPage;
-import com.invoke.pages.SurveyTemplateListPage;
-import com.invoke.pages.UserDashboardPage;
+
+import com.automation.base.BaseTest;
+import com.automation.base.CsvDataProvider;
+import com.automation.pages.SurveyEditorPage;
+import com.automation.pages.SurveyTemplateListPage;
+import com.automation.pages.UserDashboardPage;
 
 public class EditSurveyTest extends BaseTest {
 	

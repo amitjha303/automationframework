@@ -1,4 +1,4 @@
-package com.invoke.pages;
+package com.automation.pages;
 
 import java.util.Properties;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-import com.invoke.base.BasePageObject;
+import com.automation.base.BasePageObject;
 
 public class ProjectListPage extends BasePageObject<ProjectListPage> {
 	protected By searchProjectName = By.xpath(prop.getProperty("searchProjectName"));

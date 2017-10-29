@@ -1,12 +1,13 @@
-package com.invoke.testcases;
+package com.automation.testcases;
 
 import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.invoke.base.BaseTest;
-import com.invoke.base.CsvDataProvider;
-import com.invoke.pages.LogInPage;
-import com.invoke.pages.UserDashboardPage;
+
+import com.automation.base.BaseTest;
+import com.automation.base.CsvDataProvider;
+import com.automation.pages.LogInPage;
+import com.automation.pages.UserDashboardPage;
 
 public class LogInTest extends BaseTest {
 

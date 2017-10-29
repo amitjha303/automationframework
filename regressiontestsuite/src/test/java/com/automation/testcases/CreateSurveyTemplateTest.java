@@ -1,13 +1,14 @@
-package com.invoke.testcases;
+package com.automation.testcases;
 
 import java.util.Map;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.invoke.base.BaseTest;
-import com.invoke.base.CsvDataProvider;
-import com.invoke.pages.SurveyEditorPage;
-import com.invoke.pages.SurveyNamePage;
-import com.invoke.pages.UserDashboardPage;
+
+import com.automation.base.BaseTest;
+import com.automation.base.CsvDataProvider;
+import com.automation.pages.SurveyEditorPage;
+import com.automation.pages.SurveyNamePage;
+import com.automation.pages.UserDashboardPage;
 
 public class CreateSurveyTemplateTest extends BaseTest {
 

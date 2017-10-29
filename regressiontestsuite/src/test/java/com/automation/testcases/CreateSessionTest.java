@@ -1,14 +1,15 @@
-package com.invoke.testcases;
+package com.automation.testcases;
 
 import org.testng.Assert;
 import java.util.Map;
 import org.testng.annotations.Test;
-import com.invoke.base.BaseTest;
-import com.invoke.base.CsvDataProvider;
-import com.invoke.pages.ProjectEditorPage;
-import com.invoke.pages.ProjectListPage;
-import com.invoke.pages.SessionEditorPage;
-import com.invoke.pages.UserDashboardPage;
+
+import com.automation.base.BaseTest;
+import com.automation.base.CsvDataProvider;
+import com.automation.pages.ProjectEditorPage;
+import com.automation.pages.ProjectListPage;
+import com.automation.pages.SessionEditorPage;
+import com.automation.pages.UserDashboardPage;
 
 public class CreateSessionTest extends BaseTest {
 	
