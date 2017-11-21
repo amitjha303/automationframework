@@ -18,18 +18,13 @@ public class LogInTest extends BaseTest {
 		
 		LogInPage logInPage = new LogInPage(driver, log, prop, config, jse);
 
-		// Open Invoke url - http://qa1.app.invoke.com/a/ui/login
 		logInPage.openPage();
 
-		// Enter username, passowrd and client
 		logInPage.enterUsernamePassword(userName, password);
 
-		// Click on Sign In button
 		UserDashboardPage userDashboard = logInPage.clickSignInButton();
 		userDashboard.waitForUserDashboardToLoad();
 
-		// Verifications
-		// - Verify title of the page is correct - Invoke®
 		log.info("Verifying logged in user details");
 		String actualPageTitle = userDashboard.getDashboardPageTitle();
 		Assert.assertTrue(expectedPageTitle.equals(actualPageTitle),

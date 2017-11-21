@@ -14,10 +14,10 @@
     <protocol>https</protocol>
     
     <!-- title of the document -->
-    <documentTitle>Invoke</documentTitle>
+    <documentTitle>Regression Test</documentTitle>
     
     <!-- report name - displayed at top-nav -->
-    <reportName>Invoke Regression Test Result</reportName>
+    <reportName>Automation Test Result</reportName>
     
     <!-- report headline - displayed at top-nav, after reportHeadline -->
     <reportHeadline>Automation Report</reportHeadline>
