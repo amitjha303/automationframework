@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.invoke.Regression</groupId>
+	<groupId>com.Test.Regression</groupId>
 	<artifactId>RegressionSuite</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RegressionSuite</name>
-	<description>This is regression suite testcases for Sargon Platform(Invoke)</description>
+	<description>This is a basic regression suite framework</description>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
